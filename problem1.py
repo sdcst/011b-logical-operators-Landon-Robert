@@ -25,4 +25,9 @@ Enter a number: 36
 Enter a number: 16
 16 is not frue
 """
+x = int(input("\n\nEnter a number: "))
 
+if x % 8 == 0 and not x % 6 == 0:
+    print(f"{x} is frue")
+else:
+    print(f"{x} is talse")
